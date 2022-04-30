@@ -24,6 +24,10 @@ app.get("/", (req, res) => {
   res.send("Server is running on PORT " + PORT);
 });
 
+app.get("/blogs", (req, res) => {
+  res.send("blogs-list");
+});
+
 app.post("/api/posts", (req, res) => {
   printLog("POST /api/posts");
 
