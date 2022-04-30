@@ -1,0 +1,10 @@
+nodejs-mock-server
+	server	(npm run devStart)
+		-npm init
+		-npm install express
+		-npm install body-parser
+		-npm install nodemon
+		-npm install cors 
+		-npm install fs-extra
+
+Configure nodemon in package.json and run server using 'npm run devStart' so that it will restart automaticall when something changes on server.
